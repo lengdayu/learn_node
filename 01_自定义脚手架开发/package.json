@@ -1,0 +1,23 @@
+{
+  "name": "dycli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "dycli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lengdayu"
+  ],
+  "author": "lengdayu",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
