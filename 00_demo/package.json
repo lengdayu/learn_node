@@ -1,0 +1,22 @@
+{
+  "name": "noob",
+  "version": "1.0.0",
+  "description": "npm源地址切换，各类包快捷安装",
+  "main": "index.js",
+  "bin": {
+    "noob": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "noob",
+    "easy",
+    "lengdayu"
+  ],
+  "author": "lengdayu",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
