@@ -1,10 +1,11 @@
 {
   "name": "noob",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "npm源地址切换，各类包快捷安装",
+  "type": "module",
   "main": "index.js",
   "bin": {
-    "noob": "bin/cli.js"
+    "noob": "bin/cli.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +17,9 @@
   ],
   "author": "lengdayu",
   "license": "ISC",
-  "dependencies": {
-    "commander": "^10.0.0"
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "inquirer": "^9.2.7"
   }
 }

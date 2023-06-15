@@ -1,5 +1,5 @@
-const myhelp = function (program) {
-  program.option("-set --setup <source>", "设置npm镜像地址");
+const help = function (program) {
+  program.option("cRegistry  changeRegistry", "切换npm源镜像地址");
 };
 
-module.exports = myhelp;
+export default help;
