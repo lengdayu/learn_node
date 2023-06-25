@@ -1,15 +1,8 @@
 {
   users: [
-    {
-      id: 1,
-      username: "jj",
-      age: 28,
-    },
-    {
-      id: 2,
-      username: "jay",
-      age: 30,
-    },
+    { id: 1, username: "jj", age: 28 },
+    { id: 2, username: "jay", age: 30 },
+    { username: "jlin", age: "25", id: 3 },
   ],
   video: [],
 }
