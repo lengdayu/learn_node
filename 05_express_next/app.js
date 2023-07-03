@@ -7,11 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 const router = require("./router/index");
 
-// 挂载路由
-app.use("/api", router);
-
-// 挂载统一处理服务端错误中间件
-// app.use(errorHandler());
+app.use("/user", router);
 
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
